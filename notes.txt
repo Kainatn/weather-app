@@ -1,0 +1,20 @@
+api = aplication programming interface
+api ==> set/links of url 
+api jisne banae he wo batata he....
+
+static ==> hard code
+dynamic ==> automatically update 
+//www.facebook.com ==> .com ==> address  :300 ==> port :80 is default
+www.facebook.com/messenger ==> /messanger ==> path
+
+? k age  ==> query  string
+query string ==> which type of data we are searching
+
+key value pair ==>  q==abc
+har key value ke center me " & " use hote hen...
+search ===> time stamp / E-poch  time
+
+**weather icon 
+  **api key = 5651b311f4bde3b478a18fbf9b55efcd
+**agr pakistan likhen == tu pakistan k city aen
+  **localstorage
