@@ -18,3 +18,4 @@ search ===> time stamp / E-poch  time
   **api key = 5651b311f4bde3b478a18fbf9b55efcd
 **agr pakistan likhen == tu pakistan k city aen
   **localstorage
+https://demo.w3layouts.com/demos_new/16-02-2017/aridity_weather_widget-demo_Free/315271637/web/index.html

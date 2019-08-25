@@ -1,16 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" class="stylesheet">
     <title>Document</title>
 </head>
+
 <body>
-    <input type="text">
-    <button onclick="getWeather()">search</button>
-    <h1></h1>
+    <div class="main">
+        <h1>Weather Widget</h1>
+        <div id="input_div"> <input type="text">
+            <button onclick="getWeather()">search</button></div>
+        <div class="agile">
+            <div class="main_grid">
+                <div class="w3layouts_main_grid_left">
+                    <h2></h2>
+                    <p></p>
+                    <h3></h3>
+                    <h4><span></span></h4>
+                </div>
+                <div class="w3layouts_main_grid_right">
+                    <canvas id="sleet" width="70" height="70"> </canvas>
+                    <div class="time"></div>
+                   
+                        <!-- date -->
+                        <script type="text/javascript">
+                
+                            let mydate = new Date();
+                            let year = mydate.getYear();
+                            let month = mydate.getMonth();
+                            document.querySelector('.time').innerHTML = mydate ;
+                        </script>
+                        <!-- //date -->
+
+                </div>
+            </div>
+        </div>
+        
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="script.js"> </script>
+
+
 </body>
+
 </html>
